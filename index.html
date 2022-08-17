@@ -19,7 +19,13 @@
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap"
+    rel="stylesheet">
 
   <script>
     tailwind.config = {
@@ -35,7 +41,7 @@
           },
           screens: {
             'sm': '750px',
-            'md': '1080px',
+            'md': '1140px',
           },
         }
       }
@@ -49,7 +55,7 @@
 
 </head>
 
-<body class="bgWhite" style="font-family: 'Noto Sans', sans-serif;;">
+<body class="bgWhite max-w-[1440px] mx-auto font-[Poppins]">
 
   <!-- Announcement section -->
   <section class="bg-paleGreen text-center p-4">
@@ -59,7 +65,8 @@
   </section>
 
   <!-- Nav Bar -->
-  <nav class="flex items-center text-lg justify-between text-gray-600 bg-bgSeashell px-[80px] pb-10">
+  <nav
+    class="flex items-center font-medium text-lg justify-between text-gray-600 bg-bgSeashell px-[5%] md:px-[80px] pb-[80px]">
     <div class="flex items-center gap-10">
       <img src="./assets/logo.png" alt="logo" class="w-[120px]">
       <span class="hidden md:block hover:text-gray-900 cursor-pointer">Start <i
@@ -83,6 +90,34 @@
     </div>
   </nav>
 
+  <!-- hero section -->
+  <section class="bg-bgSeashell grid grid-cols-1 md:grid-cols-2 items-center px-[5%] md:px-[80px] pb-[80px] gap-[80px]">
+    <div>
+      <h1 class="text-3xl md:text-5xl md:leading-relaxed text-darkGreen mb-5 font-bold">The easiest way to sell
+        online in
+        India</h1>
+      <p class="mb-5 text-gray-500">Try one of the most powerful platforms on the market for free. No technical
+        knowledge needed.</p>
+      <div class="flex mb-5 gap-8 w-[100%] sm:w-[70%] md:w-[100%]">
+        <input type="email" name="emailbox" placeholder="Enter you email address"
+          class="p-3 rounded focus:border-2 border border-darkGreen flex-1">
+        <a href="#"
+          class="block py-3 px-2.5 text-center font-medium text-bgWhite bg-secondaryGreen hover:bg-darkGreen drop-shadow-md rounded w-[120px]">Try
+          for free</a>
+      </div>
+      <p class="text-xs text-gray-700">Try Shopify free for 14 days, no credit card required. By entering your email,
+        you agree
+        to receive marketing
+        emails
+        from Shopify.</p>
+    </div>
+    <div>
+      <video muted autoplay loop="loop">
+        <source type="video/webm"
+          src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/inbrochurebannerv2-97d1a3f03a5f9e8d85306e06358d6cff68f2316530f6a1b8a81e0440ee684ea9.webm">
+      </video>
+    </div>
+  </section>
 
   </h1>
 </body>
