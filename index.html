@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopify</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="https://cdn.shopify.com/static/shopify-favicon.png" type="image/x-icon">
+
+  <!-- FontAwsome CDN -->
+  <script src="https://kit.fontawesome.com/5a6e447df1.js" crossorigin="anonymous"></script>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;400;500;700&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            bgWhite: '#fcfcfc',
+            bgSeashell: '#FBF7ED',
+            paleGreen: '#A5E3B9',
+            darkGreen: "#004C3F",
+            honeydew: '#F3FCF4',
+            secondaryGreen: "#008060",
+          },
+          screens: {
+            'sm': '750px',
+            'md': '1080px',
+          },
+        }
+      }
+    }
+  </script>
+
+
+</head>
+
+<body class="bgWhite" style="font-family: 'Noto Sans', sans-serif;;">
+
+  <!-- Announcement section -->
+  <section class="bg-paleGreen text-center p-4">
+    <span>
+      Start a free trial and enjoy up to 97% off for 3 months on select plans—offer ends 08/25.</span>
+    <a href="#" class="font-medium underline hover:no-underline">Sign up now</a><i class="fa-solid fa-xmark ml-3"></i>
+  </section>
+
+  <!-- Nav Bar -->
+  <nav class="flex items-center text-lg justify-between text-gray-600 bg-bgSeashell px-10 pb-10">
+    <div class="flex items-center gap-10">
+      <img src="./assets/logo.png" alt="logo" class="w-[120px]">
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Start <i
+          class="fa-solid fa-chevron-down text-xs ml-[3px]"></i></span>
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Sell <i
+          class="fa-solid fa-chevron-down  text-xs ml-[3px]"></i></span>
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Market <i
+          class="fa-solid fa-chevron-down  text-xs ml-[3px]"></i></span>
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Manage <i
+          class="fa-solid fa-chevron-down  text-xs ml-[3px]"></i></span>
+    </div>
+    <div class="flex items-center gap-10">
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Pricing</span>
+      <span class="hidden md:block hover:text-gray-900 cursor-pointer">Learn <i
+          class="fa-solid fa-chevron-down  text-xs ml-[3px]"></i></span>
+      <span class="hover:text-gray-900 cursor-pointer">Log in</span>
+      <a href="#" class="hidden md:block py-1.5 px-2.5 text-bgWhite bg-secondaryGreen hover:bg-darkGreen rounded-lg">Try
+        for free</a>
+      <i class="md:hidden fa-solid fa-bars"></i>
+    </div>
+  </nav>
+
+
+  </h1>
+</body>
+
+</html>
