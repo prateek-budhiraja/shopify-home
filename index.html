@@ -54,6 +54,15 @@
       transition: 0.2s all ease-in-out;
     }
 
+    #move-up {
+      transition: 0.2s all ease;
+      top: 0;
+    }
+
+    .back-to-top:hover #move-up {
+      top: -10px;
+    }
+
     span:hover .move-right {
       transition: 0.2s all ease;
       margin-left: 10px;
@@ -356,7 +365,7 @@
   <!-- Get help -->
   <section class="bg-bgSeashell">
     <div class="grid sm:grid-cols-2 gap-8">
-      <div class="px-[5%] md:px-[80px]">
+      <div class="px-[5%] md:px-[80px] pb-[40px]">
         <h1 class="font-medium text-2xl py-10">Get the help you need, every step of the way</h1>
         <div class="grid md:grid-cols-2 gap-8">
           <div>
@@ -389,6 +398,178 @@
         src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-d425d91a15904a11c2c968cbc5d0365bc1db3ddb0b3c1e6d8582fa9138178084.jpg">
     </div>
   </section>
+
+  <!-- End CTA -->
+  <section class="mx-auto px-5 sm:w-[50%] my-[60px]">
+    <h1 class="text-3xl font-medium mb-[20px] text-center">Start your business journey with Shopify</h1>
+    <p class="text-center w-[80%] mx-auto text-gray-600 mb-[30px]">Try Shopify for free, and explore all the tools and
+      services
+      you need to start, run,
+      and grow
+      your business.</p>
+    <a href="#"
+      class="block w-[150px] mx-auto py-3 px-2.5 text-center font-medium text-bgWhite bg-secondaryGreen hover:bg-darkGreen drop-shadow-md rounded">Start
+      free trial</a>
+  </section>
+
+  <!-- Back to top -->
+  <div class="flex justify-end hidden sm:flex text-secondaryGreen cursor-pointer font-semibold px-[5%] md:px-[80px]">
+    <div class="back-to-top">
+      <span>Back to top</span>
+      <i class="fa-solid fa-arrow-up relative" id="move-up"></i>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="bg-darkGreen mt-10 text-bgWhite px-[5%] md:px-[80px]">
+    <div class="flex gap-5 py-[20px] font-semibold text-xs sm:text-base flex-wrap">
+      <h2 class="underline-offset-[25px] sm:hover:underline decoration-4 cursor-pointer">About</h2>
+      <h2 class="underline-offset-[25px] sm:hover:underline decoration-4 cursor-pointer">Careers</h2>
+      <h2 class="underline-offset-[25px] sm:hover:underline decoration-4 cursor-pointer">Press and Media</h2>
+      <h2 class="underline-offset-[25px] sm:hover:underline decoration-4 cursor-pointer">Shopify Plus</h2>
+      <h2 class="underline-offset-[25px] sm:hover:underline decoration-4 cursor-pointer">Sitemap</h2>
+    </div>
+    <div class="h-[1px] bg-gray-300"></div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8 py-8 px-6 md:grid-cols-5">
+      <div class="col-span-2">
+        <h2 class="mb-6 text-sm font-semibold uppercase">online store</h2>
+        <div class="grid grid-cols-3">
+          <ul class="text-sm text-gray-300">
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Sell online</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Feature</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Examples</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Website builder</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Online retail</a>
+            </li>
+          </ul>
+          <ul class="text-sm text-gray-300">
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Sell online</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Feature</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Examples</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Website builder</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Online retail</a>
+            </li>
+          </ul>
+          <ul class="text-sm text-gray-300">
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Sell online</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Feature</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Examples</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Website builder</a>
+            </li>
+            <li class="mb-2 hover:text-bgWhite">
+              <a href="#">Online retail</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase">Support</h2>
+        <ul class="text-sm text-gray-300">
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Discord Server</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Twitter</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Facebook</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase">Point of Sale</h2>
+        <ul class="text-sm text-gray-300">
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Licensing</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Terms &amp; Conditions</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="mb-6 text-sm font-semibold uppercase ">Shopify</h2>
+        <ul class="text-sm text-gray-300">
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">iOS</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Android</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">Windows</a>
+          </li>
+          <li class="mb-2 hover:text-bgWhite">
+            <a href="#">MacOS</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="h-[1px] bg-bgWhite"></div>
+
+    <div class="py-6 px-4 bg-darkGreen md:flex md:items-center md:justify-between text-ceter">
+      <div class="flex mt-4 space-x-6 justify-center md:mt-0 text-xl mb-[20px]">
+        <a href="#" class="text-gray-400 hover:text-gray-900 hover:text-white">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </div>
+      <span class="text-sm  mb-[20px] text-gray-500 dark:text-gray-300 sm:text-center flex gap-4 justify-center">
+        <a href="#" class="hover:text-bgWhite">Terms of Service</a>
+        <a href="#" class="hover:text-bgWhite">Privacy
+          Policy</a>
+        <span class="cursor-pointer hover:text-bgWhite"><i class="fa-solid fa-globe"></i> India <i
+            class="fa-solid fa-caret-down"></i></span>
+      </span>
+    </div>
+  </footer>
+
 
 </body>
 
